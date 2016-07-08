@@ -1,0 +1,100 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose readDependencies loading dependencies from D:\code\demo\validForm\package.json
+5 verbose install where, deps [ 'D:\\code\\demo\\validForm',
+5 verbose install   [ 'del',
+5 verbose install     'gulp',
+5 verbose install     'gulp-concat',
+5 verbose install     'gulp-jshint',
+5 verbose install     'gulp-notify',
+5 verbose install     'gulp-rename',
+5 verbose install     'gulp-uglify',
+5 verbose install     'jshint' ] ]
+6 verbose install where, peers [ 'D:\\code\\demo\\validForm', [] ]
+7 verbose installManyTop reading for lifecycle D:\code\demo\validForm\package.json
+8 info preinstall jquery-jcdate@1.0.0
+9 verbose installManyTop reading scoped package data from D:\code\demo\validForm\node_modules\del\package.json
+10 verbose installManyTop reading scoped package data from D:\code\demo\validForm\node_modules\gulp\package.json
+11 verbose installManyTop reading scoped package data from D:\code\demo\validForm\node_modules\gulp-concat\package.json
+12 verbose installManyTop reading scoped package data from D:\code\demo\validForm\node_modules\gulp-jshint\package.json
+13 verbose installManyTop reading scoped package data from D:\code\demo\validForm\node_modules\gulp-notify\package.json
+14 verbose installManyTop reading scoped package data from D:\code\demo\validForm\node_modules\gulp-rename\package.json
+15 verbose installManyTop reading scoped package data from D:\code\demo\validForm\node_modules\gulp-uglify\package.json
+16 verbose installManyTop reading scoped package data from D:\code\demo\validForm\node_modules\jshint\package.json
+17 info package.json gulp-rename@1.2.2 No license field.
+18 info package.json gulp-notify@2.2.0 No license field.
+19 verbose readDependencies loading dependencies from D:\code\demo\validForm\package.json
+20 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\del\package.json
+21 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\gulp\package.json
+22 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\gulp-concat\package.json
+23 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\gulp-jshint\package.json
+24 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\gulp-notify\package.json
+25 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\gulp-rename\package.json
+26 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\gulp-uglify\package.json
+27 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\jshint\package.json
+28 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\.bin\gulp\package.json
+29 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\.bin\gulp.cmd\package.json
+30 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\.bin\jshint\package.json
+31 verbose targetResolver reading package data from D:\code\demo\validForm\node_modules\.bin\jshint.cmd\package.json
+32 verbose already installed skipping gulp-concat@^2.6.0 D:\code\demo\validForm
+33 verbose already installed skipping gulp-jshint@^2.0.1 D:\code\demo\validForm
+34 verbose already installed skipping gulp-notify@^2.2.0 D:\code\demo\validForm
+35 verbose already installed skipping gulp-rename@^1.2.2 D:\code\demo\validForm
+36 verbose already installed skipping gulp-uglify@^1.5.3 D:\code\demo\validForm
+37 verbose already installed skipping jshint@^2.9.2 D:\code\demo\validForm
+38 verbose already installed skipping del@^2.2.0 D:\code\demo\validForm
+39 verbose already installed skipping gulp@^3.9.1 D:\code\demo\validForm
+40 silly install resolved []
+41 info build D:\code\demo\validForm
+42 info linkStuff jquery-jcdate@1.0.0
+43 silly linkStuff jquery-jcdate@1.0.0 has D:\code\demo as its parent node_modules
+44 verbose linkBins jquery-jcdate@1.0.0
+45 verbose linkMans jquery-jcdate@1.0.0
+46 verbose rebuildBundles jquery-jcdate@1.0.0
+47 verbose rebuildBundles [ '.bin',
+47 verbose rebuildBundles   'del',
+47 verbose rebuildBundles   'gulp',
+47 verbose rebuildBundles   'gulp-concat',
+47 verbose rebuildBundles   'gulp-jshint',
+47 verbose rebuildBundles   'gulp-notify',
+47 verbose rebuildBundles   'gulp-rename',
+47 verbose rebuildBundles   'gulp-uglify',
+47 verbose rebuildBundles   'jshint' ]
+48 info install jquery-jcdate@1.0.0
+49 verbose unsafe-perm in lifecycle true
+50 info jquery-jcdate@1.0.0 Failed to exec install script
+51 verbose stack Error: jquery-jcdate@1.0.0 install: `npm install`
+51 verbose stack Exit status 1
+51 verbose stack     at EventEmitter.<anonymous> (D:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+51 verbose stack     at emitTwo (events.js:87:13)
+51 verbose stack     at EventEmitter.emit (events.js:172:7)
+51 verbose stack     at ChildProcess.<anonymous> (D:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+51 verbose stack     at emitTwo (events.js:87:13)
+51 verbose stack     at ChildProcess.emit (events.js:172:7)
+51 verbose stack     at maybeClose (internal/child_process.js:827:16)
+51 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+52 verbose pkgid jquery-jcdate@1.0.0
+53 verbose cwd D:\code\demo\validForm
+54 error Windows_NT 6.1.7601
+55 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+56 error node v4.4.5
+57 error npm  v2.15.5
+58 error code ELIFECYCLE
+59 error jquery-jcdate@1.0.0 install: `npm install`
+59 error Exit status 1
+60 error Failed at the jquery-jcdate@1.0.0 install script 'npm install'.
+60 error This is most likely a problem with the jquery-jcdate package,
+60 error not with npm itself.
+60 error Tell the author that this fails on your system:
+60 error     npm install
+60 error You can get information on how to open an issue for this project with:
+60 error     npm bugs jquery-jcdate
+60 error Or if that isn't available, you can get their info via:
+60 error
+60 error     npm owner ls jquery-jcdate
+60 error There is likely additional logging output above.
+61 verbose exit [ 1, true ]
