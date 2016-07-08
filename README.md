@@ -29,7 +29,9 @@ $('#submit').on('click', function(){
             email: ['input[name="email"]', 'empty', '邮箱必填']
         };
         var model = {el: '#mainForm', data: data};
-        validForm(model);
+        validForm(model, function(msg){
+            alert(msg);
+        });
     });
     
 /*****详细说明:******/
@@ -47,5 +49,7 @@ $('#submit').on('click', function(){
     * 
     * model的另一种等价写法:
     * var model = {el: '#mainForm', data: [data.method, data.name, data.pwd, data.email]};
-    * */
+    *
+    * 调用时,也可以写为validForm(model)回调函数不写,默认采用原生alert方式提示 
+    */
 ```
