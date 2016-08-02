@@ -1,8 +1,7 @@
 # validForm
-依赖于jQuery的表单数据验证工具
+原生的表单数据验证工具
 #使用方法
-- 1.首先引入jQuery
-- 2.然后引入src目录中的validForm.js或dist目录中的validForm.min.js(压缩版)
+- 首先引入src目录中的validForm.js或dist目录中的validForm.min.js(压缩版)
     - 代码实例:
 
 ```html

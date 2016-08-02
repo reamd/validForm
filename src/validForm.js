@@ -1,7 +1,7 @@
 /**
  * Created by reamd on 2016/7/7.
  */
-(function($, factory){
+(function(factory){
     "use strict";
     if (typeof define === 'function' && define.amd) {
         // AMD
@@ -16,10 +16,10 @@
         // Browser globals
         window.validForm = factory;
     }
-}(jQuery, function(model, callback){
+}(function(model, callback){
         var cb = callback || alert,
             flag = false,
-            $tEl = $(model.el),
+            tEl = document.querySelector(model.el),
             tData = model.data,
             dRule = {
               empty:    /[^\s*]/,
@@ -53,7 +53,7 @@
                 case null:
                 case undefined:
                 case '':
-                    rule = dRule.notNull;
+                    rule = dRule.empty;
                     break;
                 case 'isNumber':
                     rule = dRule.isNumber;
@@ -82,7 +82,7 @@
                 flag = true;
                 return;
             }
-            if(!rule.test($tEl.find(ele).val())) {
+            if(!rule.test(tEl.querySelector(ele).value)) {
                     cb(tip);
                     flag = true;
             }
